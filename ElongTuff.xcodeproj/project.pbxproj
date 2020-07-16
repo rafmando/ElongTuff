@@ -17,6 +17,11 @@
 		A9514E2924995063009D8431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9514E2724995063009D8431 /* LaunchScreen.storyboard */; };
 		A9514E3424995063009D8431 /* ElongTuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9514E3324995063009D8431 /* ElongTuffTests.swift */; };
 		A9514E3F24995063009D8431 /* ElongTuffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9514E3E24995063009D8431 /* ElongTuffUITests.swift */; };
+		A9514E4D249980BC009D8431 /* bulletSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9514E4C249980BC009D8431 /* bulletSound.mp3 */; };
+		A9514E4F249980E2009D8431 /* level0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9514E4E249980E1009D8431 /* level0.mp3 */; };
+		A96DC3B2249CE6BE00ADF8D6 /* A Blood Splatter Sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A96DC3B1249CE6BE00ADF8D6 /* A Blood Splatter Sound effect.mp3 */; };
+		A96DC3B4249E7ADC00ADF8D6 /* Solo Mission Free Assets in Resources */ = {isa = PBXBuildFile; fileRef = A96DC3B3249E7ADC00ADF8D6 /* Solo Mission Free Assets */; };
+		A96DC3B6249E7B8500ADF8D6 /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A96DC3B5249E7B0200ADF8D6 /* theBoldFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		A9514E3A24995063009D8431 /* ElongTuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElongTuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9514E3E24995063009D8431 /* ElongTuffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElongTuffUITests.swift; sourceTree = "<group>"; };
 		A9514E4024995063009D8431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9514E4C249980BC009D8431 /* bulletSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bulletSound.mp3; path = Assets.xcassets/bulletSound.mp3; sourceTree = "<group>"; };
+		A9514E4E249980E1009D8431 /* level0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = level0.mp3; path = Assets.xcassets/level0.mp3; sourceTree = "<group>"; };
+		A96DC3B1249CE6BE00ADF8D6 /* A Blood Splatter Sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A Blood Splatter Sound effect.mp3"; sourceTree = "<group>"; };
+		A96DC3B3249E7ADC00ADF8D6 /* Solo Mission Free Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Solo Mission Free Assets"; sourceTree = "<group>"; };
+		A96DC3B5249E7B0200ADF8D6 /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theBoldFont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 		A9514E0C24995060009D8431 = {
 			isa = PBXGroup;
 			children = (
+				A96DC3B5249E7B0200ADF8D6 /* theBoldFont.ttf */,
 				A9514E1724995060009D8431 /* ElongTuff */,
 				A9514E3224995063009D8431 /* ElongTuffTests */,
 				A9514E3D24995063009D8431 /* ElongTuffUITests */,
@@ -109,6 +120,10 @@
 				A9514E1E24995060009D8431 /* GameScene.swift */,
 				A9514E2024995060009D8431 /* GameViewController.swift */,
 				A9514E2224995060009D8431 /* Main.storyboard */,
+				A96DC3B1249CE6BE00ADF8D6 /* A Blood Splatter Sound effect.mp3 */,
+				A9514E4E249980E1009D8431 /* level0.mp3 */,
+				A9514E4C249980BC009D8431 /* bulletSound.mp3 */,
+				A96DC3B3249E7ADC00ADF8D6 /* Solo Mission Free Assets */,
 				A9514E2524995063009D8431 /* Assets.xcassets */,
 				A9514E2724995063009D8431 /* LaunchScreen.storyboard */,
 				A9514E2A24995063009D8431 /* Info.plist */,
@@ -238,11 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96DC3B6249E7B8500ADF8D6 /* theBoldFont.ttf in Resources */,
 				A9514E2424995060009D8431 /* Main.storyboard in Resources */,
 				A9514E1B24995060009D8431 /* GameScene.sks in Resources */,
+				A96DC3B4249E7ADC00ADF8D6 /* Solo Mission Free Assets in Resources */,
 				A9514E2624995063009D8431 /* Assets.xcassets in Resources */,
+				A9514E4F249980E2009D8431 /* level0.mp3 in Resources */,
 				A9514E2924995063009D8431 /* LaunchScreen.storyboard in Resources */,
+				A9514E4D249980BC009D8431 /* bulletSound.mp3 in Resources */,
 				A9514E1D24995060009D8431 /* Actions.sks in Resources */,
+				A96DC3B2249CE6BE00ADF8D6 /* A Blood Splatter Sound effect.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937S3QP77J;
 				INFOPLIST_FILE = ElongTuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937S3QP77J;
 				INFOPLIST_FILE = ElongTuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
